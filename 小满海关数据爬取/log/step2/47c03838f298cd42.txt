@@ -1,0 +1,351 @@
+47c03838f298cd42-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&uszi1aed63f1d1e4de57635d16e8b2f0653c-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&d233f0dffede57b2-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&07e79d42eeecfa43-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&349e00fd0d2fb229-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&62cc1ca3603bd35d-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&5e09d66cdaef3eae-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&7acd482288a7c611-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&214ef683b80a8bba-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&b0c3ac6ab91e262c-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&8403570d22dba412-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&a4370620066000fb-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&e4ab40f24e10a0d9-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&63e6a2415faab60a-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&8b9b6672ea5bcb71-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&c3cbab4b0fab6e82-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&ee7e4da2d2f30910-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&0617e58c5d0ba1c0-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&itzif7b5155a769de699125ef4ec701fa172-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&idzid04acd51e1d2edf86cc13a7cdd9583c1-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&uszidc83b8a758b6c29ec28decb22dd10c76-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&5f79c3e3e9b9fa32-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&87cb281ecad2e990-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&2aa2c4dff1267855-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&7229cda6435646b2-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 116, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 245, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&

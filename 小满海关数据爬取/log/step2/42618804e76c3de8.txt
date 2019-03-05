@@ -1,0 +1,551 @@
+42618804e76c3de8-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&16f0e2838b8d7126-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&33f81344be23b727-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&b4c03dfc64b0c0ff-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&ffb670eb8d369eed-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&jpzi88bbdbacef3f381bcaf531a4860a9e9f-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&a343ddc4627733f9-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&197045f8def6b365-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&78d1120c5d683384-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&8042caeaed023f31-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&96f2567528c63629-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&krzie16fdd819e752761aeb1525c2d25fe0a-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&d156770243b95a33-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&9f823f2cae24bddb-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&8d4aecd62aff9fd9-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&340d11bbad9eb299-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&497b1e3aad3b4e60-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&b433844a74db4b62-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&e50dbee7e90ba607-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&a32c2ae992542ffe-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&940fcb616e16f133-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&d81f3a90122e6990-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&8d8619d09f859c93-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&uszi10ab91a681b1a25c64ce90c19f9842bd-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&d340515b565deb6a-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 104, in get_data
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step2.py", line 228, in write2sql
+    cur.execute(sql)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'xiaoman.comp' doesn't exist")
+&

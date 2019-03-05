@@ -1,0 +1,177 @@
+Russia201763636e052bf12c441c38fb413ee5825e-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕТЛЫ, ЩЕТКИ (ВКЛЮЧАЯ ЩЕТКИ, ЯВЛЯЮЩИ' at line 1")
+&Russia2017d4b8aa78f7eafee5a3c79659efe342e1-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕТЛЫ, ЩЕТКИ (ВКЛЮЧАЯ ЩЕТКИ, ЯВЛЯЮЩИ' at line 1")
+&Russia20150865034f1345c8e6f3b891aa8e733607-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'ТОРГОВЫЕ КАССЕТНЫЕ ПОДСТАВКИ ИЗ ПРÐ' at line 1")
+&Russia2015052c8f1b99602a5da7882209f1195c8b-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'ВИЗУАЛЬНЫЕ ФАКТИСЫ ЩЕТОЧЕК ИЗ ПОД Т' at line 1")
+&Russia2015019c8af25af3257a261e86559de28c14-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕБЕЛЬ ИЗ КОМБИНИРОВАННЫХ МАТЕРИАЛ' at line 1")
+&Russia20151b915ffa7999057743e96a031f31b5dc-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕБЕЛЬ ИЗ КОМБИНИРОВАННЫХ МАТЕРИАЛ' at line 1")
+&Russia2015f345763a9ce5f273dc738be0241df47e-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕБЕЛЬ МЕТАЛЛИЧЕСКАЯ,,ПРЕДНАЗНАЧЕН' at line 1")
+&Russia20153555eeb7b94d6070d5febe1db6d7dc09-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 201, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 212, in write2sql
+    cur.execute(sql)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OREAL PARIS', 'МЕБЕЛЬ ИЗ КОМБИНИРОВАННЫХ МАТЕРИАЛ' at line 1")
+&

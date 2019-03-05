@@ -1,0 +1,1 @@
+{'url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=gold%20enterprise&realtime=0&searchType=company&page_size=25', 'method': 'GET', 'status': 200, 'response_url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=gold%20enterprise&realtime=0&searchType=company&page_size=25', 'timestamp': 1546843299.5009906}

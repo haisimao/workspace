@@ -1,0 +1,111 @@
+America201672e2e342a243c197ffcbdedb32c72e31-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 227, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 243, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S INC.', '700 13TH AVENUE EAST-ATTN:IAC DEPT BRADENTON FL 34208 US  []','None', ' at line 1")
+&America2016d53b47f541b81fc7cf46f619fc1db6bb-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 227, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 243, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'S INC\', \'1806 38TH AVENUEBRADENTONFLORIDA 34208      [{"COMMNUMBERQUALIFIER":"TE\' at line 1')
+&America2015d476dcf4c7f898fd9434bf8ba732c5b2-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 227, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 243, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'S INC.\', \'700 13TH AVENUE EASTBRADENTONFLORIDA 34208      [{"COMMNUMBERQUALIFIER\' at line 1')
+&America2015e955b65c5ceb2a336465f35ee2608ce6-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 227, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 243, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'S INC.\', \'700 13TH AVENUE EASTBRADENTONFLORIDA 34208      [{"COMMNUMBERQUALIFIER\' at line 1')
+&America2015f1672ffc0f0be56fb937013fa4bbb312-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 227, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 243, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'S INC.\', \'700 13TH AVENUE EASTBRADENTONFLORIDA 34208      [{"COMMNUMBERQUALIFIER\' at line 1')
+&

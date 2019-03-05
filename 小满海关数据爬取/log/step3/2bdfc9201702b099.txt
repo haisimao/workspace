@@ -1,0 +1,181 @@
+63d8ceb5a3174188-2-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c283d523f1243d2d-10-IMPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c283d523f1243d2d-11-IMPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c283d523f1243d2d-12-IMPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&eb6bb35c889c8eed-1-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&4bf2cd37e96335aa-1-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&4bf2cd37e96335aa-3-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&4bf2cd37e96335aa-7-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&4bf2cd37e96335aa-8-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&37049b4599e85217-4-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&9a21f1daf7ab74bf-1-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&df6b4d508e917a30-1-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&df6b4d508e917a30-2-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&df6b4d508e917a30-3-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&df6b4d508e917a30-4-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&

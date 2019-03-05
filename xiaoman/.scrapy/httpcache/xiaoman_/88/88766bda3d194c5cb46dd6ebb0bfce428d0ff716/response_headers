@@ -1,0 +1,10 @@
+Server: nginx/1.12.0
+Date: Wed, 02 Jan 2019 09:21:07 GMT
+Content-Type: application/json; charset=UTF-8
+X-Powered-By: PHP/7.0.0
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+X-Map-Group: discovery

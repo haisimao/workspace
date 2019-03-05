@@ -1,0 +1,37 @@
+Russia2015a4f9a460fe186f4eec4b6819dad6e899-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 134, in get_data1
+    response = self.session.get(url=url, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&Russia2015734bcfc6c9ec4bb754ae169e0c4c0e3c-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 134, in get_data1
+    response = self.session.get(url=url, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&Russia20151aa89dfa518199e8b1616ad71d09710d-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 134, in get_data1
+    response = self.session.get(url=url, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&

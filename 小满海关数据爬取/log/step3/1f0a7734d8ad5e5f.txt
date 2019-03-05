@@ -1,0 +1,124 @@
+51c1c3cdf77588a9-90-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&America2017V6383174-Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "D:\Anaconda\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "D:\Anaconda\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "D:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "D:\Anaconda\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x000001D936C0E7B8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "D:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Anaconda\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='x.xiaoman.cn', port=443): Max retries exceeded with url: /api/company-read/customs-detail?id=America2017V6383174 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001D936C0E7B8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 142, in get_data1
+    response = self.session.get(url=url, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "D:\Anaconda\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='x.xiaoman.cn', port=443): Max retries exceeded with url: /api/company-read/customs-detail?id=America2017V6383174 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001D936C0E7B8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+&America201630b89ee650453ebde0b52c15b8bbf4b1-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 142, in get_data1
+    response = self.session.get(url=url, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&bca2544f37a95ea5-21-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&bca2544f37a95ea5-22-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 124, in get_data
+    self.get_data1(i['id'], hashid)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 137, in get_data1
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 99, in cookies
+    update_cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 74, in update_cookies
+    users[params[0]]['proxy'], users[params[0]]['cookies'] = login(params[0], params[1])
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 82, in login
+    return sp.get_login(user, pwd)   #返回cookies
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 70, in get_login
+    return self.get_login(user, pwd)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 25, in get_login
+    self.web.get('https://login.xiaoman.cn/login?system_id=discovery&return_url=https%3A%2F%2Fx.xiaoman.cn%2F')
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: no such session
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+&5153e247fd2d63b2-2-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 83, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "D:\Anaconda\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "D:\Anaconda\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&

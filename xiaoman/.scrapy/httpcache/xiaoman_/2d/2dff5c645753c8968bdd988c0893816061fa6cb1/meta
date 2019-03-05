@@ -1,0 +1,1 @@
+{'url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=RT%20SALES%20EQUIPMENT&realtime=0&searchType=company&page_size=25', 'method': 'GET', 'status': 200, 'response_url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=RT%20SALES%20EQUIPMENT&realtime=0&searchType=company&page_size=25', 'timestamp': 1545211382.2730088}

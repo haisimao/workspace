@@ -1,0 +1,7 @@
+Referer: https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=eBay&realtime=0&searchType=company&page_size=25
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/1.5.1 (+https://scrapy.org)
+User_Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1
+Accept-Encoding: gzip,deflate
+Cookie: gr_user_id=13fd8973-b258-4f76-9370-8c42a4d1d38c; account=2671699841%40qq.com; b448a487daf63fd8_gr_session_id=aec2988f-9c9b-449d-b94d-c8be9976bed8; dx-api-source=dx; b448a487daf63fd8_gr_session_id_aec2988f-9c9b-449d-b94d-c8be9976bed8=true; grwng_uid=5a54b879-5209-4abe-ab31-d0d54bc417ed; userId=55234587; clientId=1977; pskey=75f5e9f70aaca9bd23a3d3df0f765ce15d53635a12c3f639e332d3cfdc765a82; fingerprint=1be15d3b57290fe8a898fa1aecbc576a; pskey_exist=1; set_id=22; USE_BUILD_NUMBER=invalid; gr_session_id_9ec9a2a65c62e0d0=cd7ad519-2072-46bf-b399-62c7b63abdfa; gr_cs1_cd7ad519-2072-46bf-b399-62c7b63abdfa=user_id%3A55234587; gr_session_id_9ec9a2a65c62e0d0_cd7ad519-2072-46bf-b399-62c7b63abdfa=true; Hm_lvt_eaaef21511645caeaaf8d3a34eb787d2=1545202963; Hm_lpvt_eaaef21511645caeaaf8d3a34eb787d2=1545202963

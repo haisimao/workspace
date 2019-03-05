@@ -1,0 +1,13 @@
+uszid3dfa4158ac86a3c5ed7eaade7f5ccfd-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step4.py", line 78, in get_data
+    response = self.session.get(url=url_, proxies={'http': proxy}).json()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\ProgramData\Anaconda3\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\ProgramData\Anaconda3\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&

@@ -1,0 +1,5 @@
+jpzi111a9e76be8a937423f056d9ac21e24b-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step2.py", line 81, in get_data
+    address = data['address'] + ',' + data['city'] + ',' + data['province'] if 'province' in data else "" + ',' + (data['postcode'] + ',' if 'postcode' in data else '')  + data['country']
+KeyError: 'address'
+&

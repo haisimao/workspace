@@ -1,0 +1,97 @@
+c4c1b6709135a5c9-44-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-45-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-46-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-47-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-48-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-49-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-53-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&c4c1b6709135a5c9-1-IMPORT-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step3.py", line 82, in get_data
+    response = self.session.get(url=self.url1, params=params1, proxies={'http': proxy}).json()
+  File "C:\Users\67001\PycharmProjects\untitled\venv\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\67001\AppData\Local\Programs\Python\Python37\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+&

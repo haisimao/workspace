@@ -1,0 +1,97 @@
+c8f44217f11832fa-9-IMPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 116, in get_data
+    self.get_data1(i['id'], hashid)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 129, in get_data1
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 99, in cookies
+    update_cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 74, in update_cookies
+    users[params[0]]['proxy'], users[params[0]]['cookies'] = login(params[0], params[1])
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 81, in login
+    return sp.get_login(user, pwd)   #返回cookies
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 69, in get_login
+    return self.get_login(user, pwd)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 24, in get_login
+    self.web.get('https://login.xiaoman.cn/login?system_id=discovery&return_url=https%3A%2F%2Fx.xiaoman.cn%2F')
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: no such session
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+&6099fec4610b7404-3-EXPORT-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 116, in get_data
+    self.get_data1(i['id'], hashid)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 129, in get_data1
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 99, in cookies
+    update_cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 74, in update_cookies
+    users[params[0]]['proxy'], users[params[0]]['cookies'] = login(params[0], params[1])
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 81, in login
+    return sp.get_login(user, pwd)   #返回cookies
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 69, in get_login
+    return self.get_login(user, pwd)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 24, in get_login
+    self.web.get('https://login.xiaoman.cn/login?system_id=discovery&return_url=https%3A%2F%2Fx.xiaoman.cn%2F')
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: no such session
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+&America2015afefb47a98e9b69d871b6a5c9d75db8e-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 203, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 214, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S MID AMERICA LLC', '1301 N.CORRINGTON AVENUE KANSAS CITY MO 64120 US  []','None' at line 1")
+&America2015a1b0d5dbf5d8d7896e69e463126e9678-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 203, in get_data1
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 214, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 727, in _read_query_result
+    result.read()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "D:\Anaconda\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S MID AMERICA LLC', '1301 N.CORRINGTON AVENUE KANSAS CITY MO 64120 US  []','None' at line 1")
+&

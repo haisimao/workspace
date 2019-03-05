@@ -1,0 +1,9 @@
+795196f03ded83ce-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 104, in get_data
+    emails = response['data']['emails']
+KeyError: 'data'
+&ad3f5656f5ac55ca-Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 96, in get_data
+    self.get_data(hashid)
+TypeError: get_data() missing 2 required positional arguments: 'siccode' and 'allpage'
+&

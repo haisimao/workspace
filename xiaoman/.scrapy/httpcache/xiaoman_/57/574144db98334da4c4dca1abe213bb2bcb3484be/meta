@@ -1,0 +1,1 @@
+{'url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=make%20up&realtime=0&searchType=company&page_size=25', 'method': 'GET', 'status': 200, 'response_url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=make%20up&realtime=0&searchType=company&page_size=25', 'timestamp': 1546908745.5589945}

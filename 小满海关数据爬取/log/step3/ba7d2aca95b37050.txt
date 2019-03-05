@@ -1,0 +1,13 @@
+214c0c3a63f91325-6-IMPORT-Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 115, in get_data
+    self.get_data1(i['id'], hashid)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\step3.py", line 128, in get_data1
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\Util\tools.py", line 107, in cookies
+    remove_cookie(users)
+  File "C:\Users\lenovo\Desktop\小满海关数据爬取\Util\tools.py", line 126, in remove_cookie
+    cookies.pop(user)
+TypeError: unhashable type: 'dict'
+&

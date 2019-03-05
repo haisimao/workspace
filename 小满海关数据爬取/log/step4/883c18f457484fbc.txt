@@ -1,0 +1,5 @@
+655c4ba2121cfa81-Traceback (most recent call last):
+  File "C:\Users\67001\Desktop\小满海关数据爬取\step4.py", line 90, in get_data
+    emails = response['data']['emails']
+KeyError: 'data'
+&

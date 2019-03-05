@@ -1,0 +1,10 @@
+
+
+cookies = [{'domain': 'www.bizvibe.com', 'expiry': 1548226551.335669, 'httpOnly': False, 'name': 'BZVAUTH', 'path': '/', 'secure': False, 'value': '4573710414'}, {'domain': '.bizvibe.com', 'expiry': 1610002572, 'httpOnly': False, 'name': '_ga', 'path': '/', 'secure': False, 'value': 'GA1.2.1366014716.1546930539'}, {'domain': '.bizvibe.com', 'expiry': 1546930598, 'httpOnly': False, 'name': '_gat', 'path': '/', 'secure': False, 'value': '1'}, {'domain': '.bizvibe.com', 'expiry': 1547016972, 'httpOnly': False, 'name': '_gid', 'path': '/', 'secure': False, 'value': 'GA1.2.1622955595.1546930539'}, {'domain': 'www.bizvibe.com', 'expiry': 1546932372, 'httpOnly': False, 'name': '_pk_ses.8.9a72', 'path': '/', 'secure': False, 'value': '*'}, {'domain': 'www.bizvibe.com', 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': 'gd5ldrmd5a8e7d32rgiigbpf32'}, {'domain': 'www.bizvibe.com', 'expiry': 1549522551, 'httpOnly': False, 'name': 'verifyCookie', 'path': '/', 'secure': False, 'value': 'Y'}, {'domain': 'www.bizvibe.com', 'expiry': 1548226551.335558, 'httpOnly': False, 'name': 'sessionid', 'path': '/', 'secure': False, 'value': 'gd5ldrmd5a8e7d32rgiigbpf32'}, {'domain': '.www.bizvibe.com', 'expiry': 1548226551.335615, 'httpOnly': True, 'name': 'BZVU', 'path': '/', 'secure': False, 'value': '89271'}, {'domain': 'www.bizvibe.com', 'expiry': 1549522551, 'httpOnly': False, 'name': 'authsession', 'path': '/', 'secure': False, 'value': '89271~43TdFqvK2Pcg2gOtugvvBmfFL6U~Lilin~~上海钰祺网络科技有限公司~10037557~A~balalaba.com~eHh4eHgzMUBxcS5jb20='}, {'domain': 'www.bizvibe.com', 'expiry': 1580885740, 'httpOnly': False, 'name': '_pk_id.8.9a72', 'path': '/', 'secure': False, 'value': '37f7b513545aeffe.1546930540.1.1546930572.1546930540.'}]
+
+
+dict_ = {}
+for cookie in cookies:
+    dict_[cookie['name']] = cookie['value']
+
+print(dict_)

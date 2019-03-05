@@ -1,0 +1,1 @@
+{'url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=%E6%99%A8%E5%88%A9&realtime=0&searchType=company&page_size=25', 'method': 'GET', 'status': 200, 'response_url': 'https://x.xiaoman.cn/api/company-read/search-list?industryType=sic&keyword=%E6%99%A8%E5%88%A9&realtime=0&searchType=company&page_size=25', 'timestamp': 1547291387.3325717}

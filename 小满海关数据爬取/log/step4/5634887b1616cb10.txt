@@ -1,0 +1,91 @@
+a0119647267b0d79-Traceback (most recent call last):
+  File "C:/Users/YQ/Desktop/小满海关数据爬取/step1.py", line 83, in get_data
+    p3 = Process(target=step3(datas, siccode, page), name='step3')  # 调用第三步
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 236, in step3
+    sp.get_data(hi[0], 'EXPORT', siccode, allpage)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 78, in get_data
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 99, in cookies
+    update_cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 74, in update_cookies
+    users[params[0]]['proxy'], users[params[0]]['cookies'] = login(params[0], params[1])
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 81, in login
+    return sp.get_login(user, pwd)   #返回cookies
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 69, in get_login
+    return self.get_login(user, pwd)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 24, in get_login
+    self.web.get('https://login.xiaoman.cn/login?system_id=discovery&return_url=https%3A%2F%2Fx.xiaoman.cn%2F')
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: no such session
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 108, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 123, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&7f13eb2a2aade999-Traceback (most recent call last):
+  File "C:/Users/YQ/Desktop/小满海关数据爬取/step1.py", line 83, in get_data
+    p3 = Process(target=step3(datas, siccode, page), name='step3')  # 调用第三步
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 236, in step3
+    sp.get_data(hi[0], 'EXPORT', siccode, allpage)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step3.py", line 78, in get_data
+    user, proxy, cookies = get_cookie()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 139, in get_cookie
+    user, proxy, cookies_ = cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 99, in cookies
+    update_cookies()
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\Util\tools.py", line 74, in update_cookies
+    users[params[0]]['proxy'], users[params[0]]['cookies'] = login(params[0], params[1])
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 81, in login
+    return sp.get_login(user, pwd)   #返回cookies
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 69, in get_login
+    return self.get_login(user, pwd)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\login1.py", line 24, in get_login
+    self.web.get('https://login.xiaoman.cn/login?system_id=discovery&return_url=https%3A%2F%2Fx.xiaoman.cn%2F')
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 332, in get
+    self.execute(Command.GET, {'url': url})
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "D:\Anaconda\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: no such session
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 108, in get_data
+    self.write2sql(sql)
+  File "C:\Users\YQ\Desktop\小满海关数据爬取\step4.py", line 123, in write2sql
+    cur.execute(sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Anaconda\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 515, in query
+    self._execute_command(COMMAND.COM_QUERY, sql)
+  File "D:\Anaconda\lib\site-packages\pymysql\connections.py", line 745, in _execute_command
+    raise err.InterfaceError("(0, '')")
+pymysql.err.InterfaceError: (0, '')
+&
